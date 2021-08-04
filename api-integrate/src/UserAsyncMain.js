@@ -34,4 +34,6 @@ function Users() {
   );
 }
 
-export default UserAsyncMain;
+// 라우터의 종류 . 1. 리액트 라우터 2. 리치 라우터 , 3. Next.js
+// BrowserRouter - 새로 고침 시, 깜빡임 없이 처리하게 해준다 .. 뭐 라우터 부분에서 작성할 것입니다.
+export default UscderAsyncMain;
