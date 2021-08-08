@@ -1,0 +1,44 @@
+$primaryColor: #646e78;
+$secondaryColor: #8d98a7;
+$highlightTextColor: #6d7c90;
+$activeTextColor: #f8f8ff;
+
+.seo-calendar-header {
+  background-color: $primaryColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $activeTextColor;
+}
+
+.seo-weekday-indicators {
+  .weekday-indicator-icon {
+    color: $highlightTextColor;
+    &.active {
+      background-color: $primaryColor;
+      color: $activeTextColor;
+    }
+  }
+}
+
+.seo-date-indicator {
+  .date-icon {
+    &.active {
+      background-color: $secondaryColor;
+      color: $activeTextColor;
+    }
+    &.selected {
+      background-color: $primaryColor;
+      color: $activeTextColor;
+    }
+  }
+}
+
+.seo-month-indicator {
+  background-color: $primaryColor;
+}

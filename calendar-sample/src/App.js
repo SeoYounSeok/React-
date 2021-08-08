@@ -1,9 +1,11 @@
 import "./App.css";
-import BaeCalendar from "./components/BaeCalender";
+import React from 'react';
+import SeoCalendar from './components/calendar/index';
+
 
 function App() {
   return  <div>
-    <BaeCalendar></BaeCalendar>
+    <SeoCalendar></SeoCalendar>
   </div>;
 }
 

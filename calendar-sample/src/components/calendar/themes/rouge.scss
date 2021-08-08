@@ -1,7 +1,11 @@
-$primaryColor: #fa8072;
-$secondaryColor: #ffa98f;
-$highlightTextColor: #d95e39;
+$primaryColor: #d00000;
+$secondaryColor: #dc2f02;
+$highlightTextColor: #6a040f;
 $activeTextColor: #f8f8ff;
+
+.seo-calendar-header {
+  background-color: $primaryColor;
+}
 
 h1,
 h2,
@@ -10,10 +14,6 @@ h4,
 h5,
 h6 {
   color: $activeTextColor;
-}
-
-.seo-calendar-header {
-  background-color: $primaryColor;
 }
 
 .seo-weekday-indicators {
