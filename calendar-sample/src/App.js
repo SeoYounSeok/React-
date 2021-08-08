@@ -1,9 +1,9 @@
 import "./App.css";
-import Calender from "./components/Calendar"
-import CalendarHeader from "./components/CalendarHeader";
+import BaeCalendar from "./components/BaeCalender";
+
 function App() {
   return  <div>
-    <CalendarHeader></CalendarHeader>
+    <BaeCalendar></BaeCalendar>
   </div>;
 }
 
